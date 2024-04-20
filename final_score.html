@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Final Score</title>
+    <link rel="stylesheet" href="word_wiz.css">
+</head>
+<body>
+    <div class="container1">
+        <h1 style="text-align: center;">Quiz - Final Score</h1>
+        <div class="score" style="text-align: center; font-size: larger;">
+            <p>Your final score is: <span id="final-score"></span></p>
+        </div>
+    </div>
+    <div class="image-container1">
+    <img src="huray.jpg">
+    </div>
+
+    <script>
+        const finalScore = localStorage.getItem('finalScore');
+        document.getElementById('final-score').textContent = finalScore;
+    </script>
+</body>
+</html>

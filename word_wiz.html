@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy Wiz</title>
+    <link rel="stylesheet" href="word_wiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img id="displayImage" src="bg.jpg" alt="Image">
+        </div>
+        <div class="quiz-container">
+            <h2 style="text-align: center;">Quizzy Wiz</h2><br><br>
+            <div id="question"></div><br><br>
+            <form id="options-form">
+                <input type="radio" name="option" id="option1" value="">
+                <label for="option1" id="option1-label"></label><br><br>
+                <input type="radio" name="option" id="option2" value="">
+                <label for="option2" id="option2-label"></label><br><br>
+                <input type="radio" name="option" id="option3" value="">
+                <label for="option3" id="option3-label"></label><br><br>
+            </form><br>
+            <button id="next-button" >Next</button><br>
+            <div id="score" style="text-align: center;font-weight: bold;">Score: <span id="score-value">0</span></div>
+        </div>
+        
+        
+    </div>
+    <script src="word_wiz.js"></script>
+</body>
+</html>

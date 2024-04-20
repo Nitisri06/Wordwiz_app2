@@ -18,8 +18,8 @@ body {
 .container1 {
     position: fixed;
     top: 10%;
-    left: 50%; /* Adjusted to left */
-    transform: translateX(-50%); /* Center horizontally */
+    left: 50%; 
+    transform: translateX(-50%); 
     width: 100%;
     max-width: 400px;
     height: 200px;
@@ -29,8 +29,8 @@ body {
 .image-container1 {
     position: fixed;
     top: 35%;
-    left: 55%; /* Adjusted to left */
-    transform: translateX(-50%); /* Center horizontally */
+    left: 55%; 
+    transform: translateX(-50%); 
     width: 100%;
     max-width: 400px;
     height: 200px;
@@ -55,9 +55,9 @@ body {
     left: 75%;
     transform: translate(-50%, -50%);
     width: 300px;
-    max-width: calc(100% - 10px); /* Account for padding */
+    max-width: calc(100% - 10px); 
     border: 6px outset #ff47a0;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto; 
 }
 
 
